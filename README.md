@@ -15,7 +15,7 @@ Made for [Hugo's Front-end Jam](https://replit.com/@hugo/Front-end-Jam?v=1)!
 
 ### Links
 * Repl link: https://replit.com/@CodeTheCode/This-Website?v=1
-* Website link: https://this-website.codethecode.repl.co/useless.html
+* Website link: https://this-website.codethecode.repl.co/
 * GitHub repo link: https://github.com/CodeTheCode2/This-Website
 * Front-end Jam link: https://replit.com/@hugo/Front-end-Jam?v=1
 
