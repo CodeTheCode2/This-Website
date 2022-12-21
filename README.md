@@ -1,6 +1,8 @@
 # This Website
 *(Yes, that's literally the name of the website.)*
 
+Made for [Hugo's Front-end Jam](https://replit.com/@Hugoonreplit/Front-end-Jam?v=1)!
+
 ### What does this do?
 ***This Website*** provides fun and knowledge! From jokes to fun facts!
 
@@ -14,7 +16,8 @@
 ### Links
 * Repl link: https://replit.com/@CodeTheCode/This-Website?v=1
 * Website link: https://this-website.codethecode.repl.co/useless.html
-* GitHub repo link: ***Soon to come.***
+* GitHub repo link: https://github.com/CodeTheCode2/This-Website
+* Front-end Jam link: https://replit.com/@Hugoonreplit/Front-end-Jam?v=1
 
 ### Images
 ![Image of This Website 1 (desktop)](screenshots/desktop/screenshot2.png) 
