@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>This Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="fadeIn.js" defer></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="dark" defer></script> 
+</head>
+
+<body>
+  <div id="content">
+    <div class="block" style="margin-top: 36vh">
+      <h1>So you chose the helpfulness.</h1>
+      <p class="mustFadeIn fadeInOnLoad">
+        You came to the <b>right place</b>!
+      </p>
+    </div>
+
+    <div class="block">
+      <h1>Are you ready?</h1>
+      <p class="mustFadeIn">
+        Get ready for <b>fun facts</b>!
+      </p>
+    </div>
+    
+    <div style="font-size: 5em;">
+      <div class="block">
+        <h1 class="mustFadeIn">3</h1>
+      </div>
+      
+      <div class="block">
+        <h1 class="mustFadeIn">2</h1>
+      </div>
+  
+      <div class="block">
+        <h1 class="mustFadeIn">1</h1>
+      </div>
+    </div>
+    
+    <div class="block" class="mustFadeIn">
+      <h1>Fun Facts:</h1>
+      <ul>
+        <li class="mustFadeIn">Sound waves create heat. Just a little bit of heat, but it's heat at last.</li>
+        <li class="mustFadeIn">Light is usually measured in wavelengths.</li>
+        <li class="mustFadeIn">Air molecules scatter the shorter sunlight wavelengths the most, and shorter wavelengths basically mean bluer wavelengths. This is why the sky is blue.</li>
+        <li class="mustFadeIn">Clorophyll don't absorb the green wavelengths, and thus green gets reflected. This is why most plants are green.</li>
+        <li class="mustFadeIn">This is also why leaves tend to change color in fall; it's because the clorophyll breaks down, which allows the leaf to reflect more colors than green.</li>
+      </ul>
+    </div>
+    
+    <div class="block mustFadeIn" style="margin-bottom: 10vh">
+      <p>
+        Was this <b>helpful</b> to you?
+      </p>
+      <script>
+        function setAnswerResponseText(responseText) {
+          const answerResponseEl = document.getElementById("answerResponse");
+          answerResponseEl.innerHTML = responseText;
+          if (answerResponseEl.style.visibility === "visible")
+            return;
+          
+          answerResponseEl.style.visibility = "visible";
+          setTimeout(() => {
+            document.getElementById("useless").style.visibility = "visible";
+          }, 1000);
+        }
+      </script>
+      <button onclick="setAnswerResponseText('Yay! :D')">Yes</button>
+      <button onclick="setAnswerResponseText(':(')">No</button>
+      <h1 id="answerResponse" style="visibility: hidden;">Yay! :D</h1>
+      <div id="useless" style="visibility: hidden;">
+        <p>You could try the useless mode now, if you haven't tried it yet!</p>
+        <a href="/useless.html" id="uselessButton"><button>I want the uselessness!</button></a>
+      </div>
+    </div>
+  </div>
+</body>
+  
+</html>
